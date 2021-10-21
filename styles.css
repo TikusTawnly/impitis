@@ -1,0 +1,29 @@
+body {
+  margin: 0px;
+  background-color: black;
+  color: white;
+  font-family: 'Share Tech Mono', monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.button {
+  padding: 0px 4px;
+}
+
+#main {
+  text-align: center;
+  margin: 0px auto 5vh;
+}
