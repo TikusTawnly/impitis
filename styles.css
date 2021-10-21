@@ -3,11 +3,11 @@ body {
   background-color: black;
   color: white;
   font-family: 'Share Tech Mono', monospace;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  max-width: 100%;
+/*   display: flex; */
+/*   align-items: center; */
+/*   justify-content: center; */
+/*   width: 100%; */
+/*   max-width: 100%; */
 /*   min-height: 100vh; */
 }
 
