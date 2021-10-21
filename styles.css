@@ -21,15 +21,7 @@ a:hover {
 
 #main {
   text-align: center;
-  margin: 0px auto 10vh;
-}
-
-h1 {
-  font-size: 4vh;
-}
-
-#menu a {
-  font-size: 2vh;
+  margin: 0px auto 5vh;
 }
 
 .button {
