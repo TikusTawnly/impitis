@@ -24,8 +24,13 @@ a:hover {
   margin: 0px auto 0vh;
 }
 
+#menu {
+/*   display: flex;
+  flex-direction: column; */
+}
+
 .button {
-  padding: 0px 4px;
+  padding: 4px 4px;
 }
 
 
