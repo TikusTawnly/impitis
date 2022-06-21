@@ -12,6 +12,7 @@ body {
 }
 
 a {
+  display: block;
   color: inherit;
   text-decoration: none;
   font-size: 20px;
@@ -27,8 +28,8 @@ a:hover {
 }
 
 #menu {
-/*   display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
 }
 
 .button {
