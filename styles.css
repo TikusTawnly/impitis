@@ -2,44 +2,56 @@ body {
   margin: 0px auto;
   background-color: black;
   color: white;
-  font-family: 'Tiny5', monospace;
+  font-family: 'Tiny5';
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 250px;
-  min-height: 95vh;
-}
-
-h1 {
-  letter-spacing: 2px;
+  max-width: 400px;
+  min-height: 90vh;
+  animation-name:glow;
+  animation-duration:1s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
 }
 
 a {
   display: block;
   color: inherit;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
+  
 }
 a:hover {
-  text-decoration: underline;
+/*   text-decoration: underline; */
 }
 
 #main {
   text-align: center;
-  padding: 0px 20px;
+  padding: 0px 20px 20px;
   margin: 0px auto 0vh;
 }
 
 #menu {
   display: flex;
   flex-direction: column;
+  gap: 16px;
 }
 
 .button {
   display: inline-block;
-  padding: 4px 12px 16px;
+  padding: 10px 20px;
+  border-radius: 2px;
+  border: 1px solid #cccccc;
+  vertical-align: middle;
+  background-color: black;
+}
+.button:hover {
+  background-color: white;
 }
 
 
-
+@keyframes glow{
+  from{text-shadow:0px 0px 1px #fff}
+  to{text-shadow:0px 0px 2px #fff}
+}
